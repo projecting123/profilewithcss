@@ -1,0 +1,25 @@
+body {
+    background-color: #c1b4e0;
+}
+
+#projectTable {
+    margin: auto;
+    line-height: 25px;
+    background-color: #0f91317a;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#projectTable tr th{
+    font-size: 18px;
+    line-height: 30px;
+    margin: 0 20px;
+}
+#projectTable tr td {
+    text-align: center;
+}
+
+#heading {
+    text-align: center;
+    color: #1a0de6;
+}

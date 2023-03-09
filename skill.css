@@ -1,0 +1,22 @@
+body{
+    background-color: #90b3c7;
+}
+#heading {
+    text-align: center;
+    font: 32px monospace;
+    color: rgba(13, 75, 192, 0.877);
+}
+
+.firstTable {
+    margin: 0 10px;
+}
+
+.secondTable {
+    margin: 40px auto;
+    background-color: rgb(87, 199, 171);
+    padding: 10px 20px;
+    border-radius: 20px;
+    line-height: 30px;
+    font-size: 19px;
+    font-weight: bold;
+}

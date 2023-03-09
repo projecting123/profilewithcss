@@ -1,0 +1,71 @@
+body {
+    background-color: #afb5d6b0;
+}
+
+#firstHeading {
+    color: rgb(202, 189, 2);
+    font: 50px sans-serif;
+    text-align: center;
+}
+
+.subHeading {
+    color: rgb(104, 179, 179);
+    text-align: center;
+    font: 32px monospace;
+}
+
+.first {
+    width: 558px;
+    margin: auto;
+    background-color: rgb(149, 187, 166);
+    border-radius: 20px;
+}
+
+.second {
+    width: 383px;
+    margin: auto;
+    font: 19px sans-serif;
+    background-color: rgb(149, 187, 166);
+    border-radius: 20px;
+}
+
+.second tr{
+    text-align: center;
+    line-height: 27px;
+}
+
+.third {
+    width: 170px;
+    margin: auto;
+    background-color: rgb(149, 187, 166);
+    border-radius: 20px;
+}
+
+.third li {
+    font: 19px sans-serif;
+    line-height: 33px;
+}
+
+.fourth {
+    width: 300px;
+    margin: auto;
+    background-color: rgb(149, 187, 166);
+    border-radius: 20px;
+}
+
+.fourth tr td form{
+    text-align: center;
+    margin: 30px 0;
+}
+
+.fifth{
+    width: 300px;
+    margin: auto;
+}
+.fifth tr{
+    text-align: center;
+}
+
+.table{
+    padding: 15px;
+}
