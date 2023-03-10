@@ -1,0 +1,36 @@
+body{
+    background-color: #81af943d;
+}
+
+#contactTable{
+    background-color: #34d4da;
+    margin: auto;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#contactTable li{
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#heading{
+    color: rgb(10, 76, 219);
+    font: 32px monospace;
+    text-align: center;
+}
+
+#linkTable td{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#linkTable td a{
+    font-size: 19px;
+    text-decoration: none;
+}
+
+#linkTable td a:hover{
+    text-decoration: underline;
+}

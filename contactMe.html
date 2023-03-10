@@ -5,36 +5,73 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="contactMe.css">
     <title>Profile-Contact</title>
+    <style>
+        body {
+            background-color: #81af943d;
+        }
+
+        #contactTable {
+            background-color: #34d4da;
+            margin: auto;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+
+        #contactTable li {
+            line-height: 25px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        #heading {
+            color: rgb(10, 76, 219);
+            font: 32px monospace;
+            text-align: center;
+        }
+
+        #linkTable td {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        #linkTable td a {
+            font-size: 19px;
+            text-decoration: none;
+        }
+
+        #linkTable td a:hover {
+            text-decoration: underline;
+        }
+    </style>
 </head>
 
-<body>
-    <a href="project.html">
-        <font size="4">Go back</font>
-    </a>
-    &emsp;<a href="index.html">
-        <font size="4">Home</font>
-    </a>
+<body style="background-color: #81af943d;">
+    <table id="linkTable">
+        <tr>
+            <td style="display: inline-block; margin: 0 20px;"><a href="project.html" style="font-size: 19px; text-decoration: none;">Go back</a></td>
+            <td style="display: inline-block; margin: 0 20px;"><a href="index.html" style="font-size: 19px; text-decoration: none;">Home</a></td>
+        </tr>
+    </table>
+
     <hr>
-    <center>
-        <font size="5">
-            <h2><u>Contact</u> <u>Details</u>:</h2>
-        </font>
+    <h2 id="heading" style="color: rgb(10, 76, 219); font: 32px monospace; text-align: center;"><u>Contact</u> <u>Details</u>:</h2>
 
-        <table>
-            <tr>
-                <td>
-                    <font size="4"><strong>1.&emsp;Name:&emsp;&emsp; Ankur Rajbongshi</strong><br></font>
-                    <font size="4"><strong>2.&emsp;Place:&emsp;&emsp; Gasbari</strong><br></font>
-                    <font size="4"><strong>3.&emsp;P.O:&emsp;&emsp;&emsp; Mahajanpara</strong><br></font>
-                    <font size="4"><strong>4.&emsp;PIN:&emsp;&emsp;&emsp;781366</strong><br></font>
-                    <font size="4"><strong>5.&emsp;Ph. no:&emsp;&emsp;9957460455</strong><br></font>
-                </td>
-            </tr>
-        </table>
-        <hr>
-    </center>
-
+    <table id="contactTable" style="background-color: #34d4da; margin: auto; padding: 10px 20px; border-radius: 20px;">
+        <tr>
+            <td>
+                <ol>
+                    <li style="line-height: 25px; font-weight: bold; font-size: 20px;">Name: Ankur Rajbongshi</li>
+                    <li style="line-height: 25px; font-weight: bold; font-size: 20px;">P.O: Mahajanpara</li>
+                    <li style="line-height: 25px; font-weight: bold; font-size: 20px;">P.S: Goreswar</li>
+                    <li style="line-height: 25px; font-weight: bold; font-size: 20px;">PIN: 781366</li>
+                    <li style="line-height: 25px; font-weight: bold; font-size: 20px;">Ph. No: 9957460455</li>
+                </ol>
+            </td>
+        </tr>
+    </table>
+    <hr>
 </body>
 
 </html>

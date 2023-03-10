@@ -3,7 +3,7 @@ body {
 }
 
 #firstHeading {
-    color: rgb(202, 189, 2);
+    color: rgb(42, 202, 2);
     font: 50px sans-serif;
     text-align: center;
 }
@@ -59,11 +59,21 @@ body {
 }
 
 .fifth{
-    width: 300px;
     margin: auto;
 }
-.fifth tr{
-    text-align: center;
+
+.fifth tr td{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.fifth tr td a{
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.fifth tr td a:hover{
+    text-decoration: underline;
 }
 
 .table{

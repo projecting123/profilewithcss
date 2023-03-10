@@ -7,45 +7,92 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="project.css">
     <title>Profile-projects</title>
+    <style>
+        body {
+            background-color: #c1b4e0;
+        }
+
+        #heading {
+            font: 32px monospace;
+            text-align: center;
+            color: #1a0de6;
+        }
+
+        #linkTable td {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        #linkTable td a {
+            color: rgb(26, 13, 230);
+            font-size: 19px;
+            text-decoration: none;
+        }
+
+        #linkTable td a:hover {
+            text-decoration: underline;
+        }
+
+        #projectTable {
+            background-color: #0f91317a;
+            border-radius: 20px;
+            line-height: 25px;
+            margin: auto;
+            padding: 10px 20px;
+        }
+
+        #projectTable tr th {
+            font-size: 18px;
+            line-height: 30px;
+            margin: 0 20px;
+        }
+
+        #projectTable tr td {
+            text-align: center;
+        }
+
+        #projectTable tr th u {
+            margin: 0 20px;
+        }
+    </style>
 </head>
 
-<body>
-    <table>
+<body style="background-color: #c1b4e0;">
+    <table id="linkTable">
         <tr>
-            <td><a href="skills.html">Go back</a></td>
-            <td>&emsp;<a href="contactMe.html">Next page</a></td>
+            <td style="display: inline-block; margin: 0 20px;"><a href="skills.html" style="color: rgb(26, 13, 230); font-size: 19px; text-decoration: none;">Go back</a></td>
+            <td style="display: inline-block; margin: 0 20px;"><a href="contactMe.html" style="color: rgb(26, 13, 230); font-size: 19px; text-decoration: none;">Next page</a></td>
         </tr>
     </table>
-    
-    
-    <hr>
-        <h2 id="heading"><u>Project</u> <u>Information:</u></h2>
-        <table id="projectTable">
-            <tr>
-                    <th><u>Total Projects</u></th>
-                    <th><u>Projects Name</u></th>
-                    <th><u>Creation Date</u></th>
-                    <th><u>Project link</u></th>
 
-            </tr>
-            <tr>
-                <td rowspan="3">3</td>
-                <td>Gutenberg Ebook</td>
-                <td>21/02/2023</td>
-                <td><a href="https://projecting123.github.io/ebookfirst/">Here</a></td>
-            </tr>
-            <tr>
-                <td>Profile</td>
-                <td>27/02/2023</td>
-                <td><a href="https://projecting123.github.io/profile/">Here</a></td>
-            </tr>
-            <tr>
-                <td>College-Project</td>
-                <td>4 months ago <br><i>From 27/02/2023</i></td>
-                <td><a href="https://codespan.tk/">Here</a></td>
-            </tr>
-        </table>
-        <hr>
+    <hr>
+    <h2 id="heading" style="font: 32px monospace; text-align: center; color: #1a0de6;"><u>Project</u> <u>Information:</u></h2>
+    <table id="projectTable" style="background-color: #0f91317a; border-radius: 20px; line-height: 25px; margin: auto; padding: 10px 20px;">
+        <tr>
+            <th style="font-size: 18px;line-height: 30px; margin: 0 20px;"><u style="margin: 0 20px;">Total Projects</u></th>
+            <th style="font-size: 18px;line-height: 30px; margin: 0 20px;"><u style="margin: 0 20px;">Projects Name</u></th>
+            <th style="font-size: 18px;line-height: 30px; margin: 0 20px;"><u style="margin: 0 20px;">Creation Date</u></th>
+            <th style="font-size: 18px;line-height: 30px; margin: 0 20px;"><u style="margin: 0 20px;">Project link</u></th>
+
+        </tr>
+        <tr>
+            <td rowspan="3" style="text-align: center;">3</td>
+            <td style="text-align: center;">Gutenberg Ebook</td>
+            <td style="text-align: center;">21/02/2023</td>
+            <td style="text-align: center;"><a href="https://projecting123.github.io/ebookfirst/">Here</a></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">Profile</td>
+            <td style="text-align: center;">27/02/2023</td>
+            <td style="text-align: center;"><a href="https://projecting123.github.io/profile/">Here</a></td>
+        </tr>
+        <tr>
+            <td style="text-align: center;">College-Project</td>
+            <td style="text-align: center;">4 months ago <br><i>From 27/02/2023</i></td>
+            <td style="text-align: center;"><a href="https://codespan.tk/">Here</a></td>
+        </tr>
+    </table>
+    <hr>
 </body>
 
 </html>

@@ -2,12 +2,33 @@ body {
     background-color: #c1b4e0;
 }
 
+#heading {
+    font: 32px monospace;
+    text-align: center;
+    color: #1a0de6;
+}
+
+#linkTable td{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+#linkTable td a{
+    color: rgb(26, 13, 230);
+    font-size: 19px;
+    text-decoration: none;
+}
+
+#linkTable td a:hover{
+    text-decoration: underline;
+}
+
 #projectTable {
-    margin: auto;
-    line-height: 25px;
     background-color: #0f91317a;
-    padding: 10px 20px;
     border-radius: 20px;
+    line-height: 25px;
+    margin: auto;
+    padding: 10px 20px;
 }
 
 #projectTable tr th{
@@ -15,11 +36,18 @@ body {
     line-height: 30px;
     margin: 0 20px;
 }
+
 #projectTable tr td {
     text-align: center;
 }
 
-#heading {
-    text-align: center;
-    color: #1a0de6;
+#projectTable tr th u{
+    margin: 0 20px;
 }
+
+
+
+
+
+
+

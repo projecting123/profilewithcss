@@ -11,6 +11,21 @@ body{
     margin: 0 10px;
 }
 
+.firstTable td{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.firstTable td a{
+    color: #1043cf;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.firstTable td a:hover {
+    text-decoration: underline;
+}
+
 .secondTable {
     margin: 40px auto;
     background-color: rgb(87, 199, 171);
@@ -20,3 +35,4 @@ body{
     font-size: 19px;
     font-weight: bold;
 }
+

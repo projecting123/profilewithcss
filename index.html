@@ -8,12 +8,95 @@
     <link rel="icon" href="https://thumbs.dreamstime.com/b/aster-flowers-art-design-26968847.jpg">
     <link rel="stylesheet" href="index..css">
     <title>Profile</title>
+    <style>
+        body {
+            background-color: #afb5d6b0;
+        }
+
+        #firstHeading {
+            color: rgb(42, 202, 2);
+            font: 50px sans-serif;
+            text-align: center;
+        }
+
+        .subHeading {
+            color: rgb(104, 179, 179);
+            text-align: center;
+            font: 32px monospace;
+        }
+
+        .first {
+            width: 558px;
+            margin: auto;
+            background-color: rgb(149, 187, 166);
+            border-radius: 20px;
+        }
+
+        .second {
+            width: 383px;
+            margin: auto;
+            font: 19px sans-serif;
+            background-color: rgb(149, 187, 166);
+            border-radius: 20px;
+        }
+
+        .second tr {
+            text-align: center;
+            line-height: 27px;
+        }
+
+        .third {
+            width: 170px;
+            margin: auto;
+            background-color: rgb(149, 187, 166);
+            border-radius: 20px;
+        }
+
+        .third li {
+            font: 19px sans-serif;
+            line-height: 33px;
+        }
+
+        .fourth {
+            width: 300px;
+            margin: auto;
+            background-color: rgb(149, 187, 166);
+            border-radius: 20px;
+        }
+
+        .fourth tr td form {
+            text-align: center;
+            margin: 30px 0;
+        }
+
+        .fifth {
+            margin: auto;
+        }
+
+        .fifth tr td {
+            display: inline-block;
+            margin: 0 20px;
+        }
+
+        .fifth tr td a {
+            font-size: 19px;
+            text-decoration: none;
+        }
+
+        .fifth tr td a:hover {
+            text-decoration: underline;
+        }
+
+        .table {
+            padding: 15px;
+        }
+    </style>
 </head>
 
-<body>
-    <h1 id="firstHeading">My Profile:</h1>
+<body style="background-color: #afb5d6b0">
+    <h1 id="firstHeading" style="color: rgb(42, 202, 2); font: 50px sans-serif; text-align: center;">My Profile:</h1>
     <hr>
-    <table class="table first">
+    <table class="table first" style="padding: 15px; width: 558px; margin: auto;background-color: rgb(149, 187, 166); border-radius: 20px;">
         <tr>
             <td><img src="profile.jpg" alt="" sizes=""></td>
             <td>
@@ -24,9 +107,9 @@
         </tr>
     </table>
     <hr>
-    <h2 class="subHeading"><u>Education</u>:</h2>
-    <table class="table second">
-        <tr>
+    <h2 class="subHeading" style="color: rgb(104, 179, 179); text-align: center; font: 32px monospace;"><u>Education</u>:</h2>
+    <table class="table second" style="padding: 15px; width: 383px; margin: auto; font: 19px sans-serif; background-color: rgb(149, 187, 166);border-radius: 20px;">
+        <tr style="text-align: center; line-height: 27px;">
             <th>
                 <u>Year</u>
             </th>
@@ -37,17 +120,17 @@
                 <u>Percentage</u>
             </th>
         </tr>
-        <tr>
+        <tr style="text-align: center; line-height: 27px;">
             <td>2018</td>
             <td>X</td>
             <td>84%</td>
         </tr>
-        <tr>
+        <tr style="text-align: center; line-height: 27px;">
             <td>2020</td>
             <td>XII</td>
             <td>55.8%</td>
         </tr>
-        <tr>
+        <tr style="text-align: center; line-height: 27px;">
             <td>Pending</td>
             <td>B.Sc (UG)</td>
             <td>Pending</td>
@@ -55,24 +138,24 @@
     </table>
     <hr>
     <h2 class="subHeading"><u>Hobbies</u>:</h2>
-    <table class="table third">
+    <table class="table third" style="padding: 15px; width: 170px;margin: auto; background-color: rgb(149, 187, 166); border-radius: 20px;">
         <tr>
             <td>
                 <ol>
-                    <li>Programming</li>
-                    <li>Singing</li>
-                    <li>Playing</li>
-                    <li>Travelling</li>
+                    <li style="font: 19px sans-serif; line-height: 33px;">Programming</li>
+                    <li style="font: 19px sans-serif; line-height: 33px;">Singing</li>
+                    <li style="font: 19px sans-serif; line-height: 33px;">Playing</li>
+                    <li style="font: 19px sans-serif; line-height: 33px;">Travelling</li>
                 </ol>
             </td>
         </tr>
     </table>
     <hr>
-    <h2 class="subHeading"><u>Contact-me</u></h2>
-    <table cellspacing="0" class="table fourth">
+    <h2 class="subHeading" style="color: rgb(104, 179, 179); text-align: center; font: 32px monospace;"><u>Contact-me</u></h2>
+    <table cellspacing="0" class="table fourth" style="width: 300px; margin: auto; background-color: rgb(149, 187, 166); border-radius: 20px; padding: 15px;">
         <tr>
             <td>
-                <form action="mailto:dekalasit@gmail.com" method="post" enctype="text/plain">
+                <form action="mailto:dekalasit@gmail.com" method="post" enctype="text/plain" style="text-align: center; margin: 30px 0;">
                     <label for="">Name:</label>
                     <input type="text"><br><br>
                     <label for="">Email:</label>
@@ -80,7 +163,8 @@
                     <label for="">D.O.B:</label>
                     <input type="date"><br><br>
                     <label for="">Message:</label><br>
-                    <textarea name="" class="" cols="20" rows="10" placeholder="Type your message here..."></textarea><br>
+                    <textarea name="" class="" cols="20" rows="10"
+                        placeholder="Type your message here..."></textarea><br>
                     <input type="submit" value="Submit">
                 </form>
             </td>
@@ -88,11 +172,11 @@
     </table>
 
     <hr>
-    <table class="table fifth">
+    <table class="table fifth" style="margin: auto; padding: 15px;">
         <tr>
-            <td><a href="skills.html">Skills</a></td>
-            <td><a href="project.html">Projects</a></td>
-            <td><a href="contactMe.html">Contact me</a></td>
+            <td style="display: inline-block; margin: 0 20px;"><a href="skills.html" style="font-size: 19px; text-decoration: none;">Skills</a></td>
+            <td style="display: inline-block; margin: 0 20px;"><a href="project.html" style="font-size: 19px; text-decoration: none;">Projects</a></td>
+            <td style="display: inline-block; margin: 0 20px;"><a href="contactMe.html" style="font-size: 19px; text-decoration: none;">Contact me</a></td>
         </tr>
     </table>
 </body>
